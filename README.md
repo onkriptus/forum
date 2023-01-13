@@ -13,7 +13,7 @@ Projeto com objetivo de fazer um fórum seguro e flexível para rodar em redes t
 
 
 
-- [Frameork Laravel](https://laravel.com/)
+- [Framework Laravel](https://laravel.com/)
 - Opção de registro de email configurável pelo admin do forum
 - Multi idioma. 
 - Database agnostic [schema migrations](https://laravel.com/docs/migrations).
