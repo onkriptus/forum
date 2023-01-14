@@ -12,10 +12,15 @@
 Projeto com objetivo de fazer um fórum seguro e flexível para rodar em redes tor e BlockChain. Atualmente os scripts de foruns prontos que tem disponíveis são inseguros e não são otimizados para trabalhar com rede de alta latência, por isso, decidimos um novo projeto baseado em Laravel inicialmente
 
 
+## Recursos 
 
-- [Framework Laravel](https://laravel.com/)
+<!-- - [Framework Laravel](https://laravel.com/) -->
 - Opção de registro de email configurável pelo admin do forum
 - Multi idioma. 
+- Opção de entradas mediante convite por membros, moderadores ou admins 
+- Captcha opensource e self hosted
+- Permitir esquema de reputação por pontos e que o administrador decida a partir de quantos pontos possa postar sem aprovação da moderação
+- Permitir que usuários possam dar e ver likes / dislikes
 <!-- - Database agnostic [schema migrations](https://laravel.com/docs/migrations).
 - [Robust background job processing](https://laravel.com/docs/queues).
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
