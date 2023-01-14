@@ -16,11 +16,11 @@ Projeto com objetivo de fazer um fórum seguro e flexível para rodar em redes t
 - [Framework Laravel](https://laravel.com/)
 - Opção de registro de email configurável pelo admin do forum
 - Multi idioma. 
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+<!-- - Database agnostic [schema migrations](https://laravel.com/docs/migrations).
 - [Robust background job processing](https://laravel.com/docs/queues).
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Laravel is accessible, powerful, and provides tools required for large, robust applications. -->
 
 ## Futuras Extensões
 
