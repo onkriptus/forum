@@ -13,10 +13,11 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('media', function (Blueprint $table) {
+        Schema::create('user_reports', function (Blueprint $table) {
             $table->id();
-                    $table->string("extension");
-                    $table->string("random_name");
+            $table->integer("user_id");
+            $table->integer("report_type"); /* If report came from specifict user profile, topic or reply */
+            $table->text("description");
             $table->timestamps();
         });
     }
@@ -28,6 +29,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('media');
+        Schema::dropIfExists('user_reports');
     }
 };

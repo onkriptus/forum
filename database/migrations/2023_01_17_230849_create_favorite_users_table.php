@@ -13,10 +13,9 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('media', function (Blueprint $table) {
+        Schema::create('favorite_users', function (Blueprint $table) {
             $table->id();
-                    $table->string("extension");
-                    $table->string("random_name");
+            $table->integer("user_id");
             $table->timestamps();
         });
     }
@@ -28,6 +27,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('media');
+        Schema::dropIfExists('favorite_users');
     }
 };
