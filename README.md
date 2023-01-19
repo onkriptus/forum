@@ -45,5 +45,5 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 # Apoio
 
-- Site: <a href='https://t.me/eu_libertario' target='_blank'>Libertário ETC / Eu Libertário</a>
+- <a href='https://t.me/eu_libertario' target='_blank'>Libertário ETC / Eu Libertário</a>
 
