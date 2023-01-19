@@ -35,3 +35,14 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 - App: multi endereços salvos no app; caso caia algum, o app seleciona outro.
 - App: troca automática de moeda usando sideshift.ai
 - App: QR code nas embalagens
+
+# Contatos
+
+- Projeto Idealizado por <a href='https://t.me/felipesms2' target='blank'>@felipesms2(telegram)</a>
+- Canal: <a href='https://t.me/felipesms2' target='blank'>t.me/onkriptus</a>
+- Site: <a href='https://onkriptus.com' target='blank'>Onkriptus.com</a>
+- Email: onkriptus@outlook.fr
+
+# Apoio
+
+Libertário ETC / Eu Libertário
