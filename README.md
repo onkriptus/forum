@@ -38,9 +38,9 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 # Contatos
 
-- Projeto Idealizado por <a href='https://t.me/felipesms2' target='blank'>@felipesms2(telegram)</a>
-- Canal: <a href='https://t.me/felipesms2' target='blank'>t.me/onkriptus</a>
-- Site: <a href='https://onkriptus.com' target='blank'>Onkriptus.com</a>
+- Projeto Idealizado por <a href='https://t.me/felipesms2' target='_blank'>@felipesms2(telegram)</a>
+- Canal: <a href='https://t.me/felipesms2' target='_blank'>t.me/onkriptus</a>
+- Site: <a href='https://onkriptus.com' target='_blank'>Onkriptus.com</a>
 - Email: onkriptus@outlook.fr
 
 # Apoio
