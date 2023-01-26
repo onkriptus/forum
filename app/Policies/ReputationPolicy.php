@@ -3,7 +3,7 @@
 namespace App\Policies;
 
 use App\Models\User;
-use App\Models\reputation;
+use App\Models\Reputation;
 use Illuminate\Auth\Access\HandlesAuthorization;
 
 class ReputationPolicy
@@ -25,7 +25,7 @@ class ReputationPolicy
      * Determine whether the user can view the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\reputation  $reputation
+     * @param  \App\Models\Reputation  $reputation
      * @return \Illuminate\Auth\Access\Response|bool
      */
     public function view(User $user, reputation $reputation)
@@ -48,7 +48,7 @@ class ReputationPolicy
      * Determine whether the user can update the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\reputation  $reputation
+     * @param  \App\Models\Reputation  $reputation
      * @return \Illuminate\Auth\Access\Response|bool
      */
     public function update(User $user, reputation $reputation)
@@ -60,7 +60,7 @@ class ReputationPolicy
      * Determine whether the user can delete the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\reputation  $reputation
+     * @param  \App\Models\Reputation  $reputation
      * @return \Illuminate\Auth\Access\Response|bool
      */
     public function delete(User $user, reputation $reputation)
@@ -72,7 +72,7 @@ class ReputationPolicy
      * Determine whether the user can restore the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\reputation  $reputation
+     * @param  \App\Models\Reputation  $reputation
      * @return \Illuminate\Auth\Access\Response|bool
      */
     public function restore(User $user, reputation $reputation)
@@ -84,7 +84,7 @@ class ReputationPolicy
      * Determine whether the user can permanently delete the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\reputation  $reputation
+     * @param  \App\Models\Reputation  $reputation
      * @return \Illuminate\Auth\Access\Response|bool
      */
     public function forceDelete(User $user, reputation $reputation)

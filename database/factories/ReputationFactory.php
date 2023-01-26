@@ -3,9 +3,10 @@
 namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
+use App\Models\User;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\reputation>
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Reputation>
  */
 class ReputationFactory extends Factory
 {
@@ -16,8 +17,11 @@ class ReputationFactory extends Factory
      */
     public function definition()
     {
-        return [
-            //
+        $score = $this->faker->randomElement([1, 2, 3]);
+        return
+        [
+            "user_id" => User::factory(),
+            "score" => $score
         ];
     }
 }

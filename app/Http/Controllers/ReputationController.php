@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\StorereputationRequest;
 use App\Http\Requests\UpdatereputationRequest;
-use App\Models\reputation;
+use App\Models\Reputation;
 
 class ReputationController extends Controller
 {
@@ -42,7 +42,7 @@ class ReputationController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\reputation  $reputation
+     * @param  \App\Models\Reputation  $reputation
      * @return \Illuminate\Http\Response
      */
     public function show(reputation $reputation)
@@ -53,7 +53,7 @@ class ReputationController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\reputation  $reputation
+     * @param  \App\Models\Reputation  $reputation
      * @return \Illuminate\Http\Response
      */
     public function edit(reputation $reputation)
@@ -65,7 +65,7 @@ class ReputationController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \App\Http\Requests\UpdatereputationRequest  $request
-     * @param  \App\Models\reputation  $reputation
+     * @param  \App\Models\Reputation  $reputation
      * @return \Illuminate\Http\Response
      */
     public function update(UpdatereputationRequest $request, reputation $reputation)
@@ -76,7 +76,7 @@ class ReputationController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\reputation  $reputation
+     * @param  \App\Models\Reputation  $reputation
      * @return \Illuminate\Http\Response
      */
     public function destroy(reputation $reputation)
