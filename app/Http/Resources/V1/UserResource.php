@@ -22,8 +22,7 @@ class UserResource extends JsonResource
             "canPublicMsgMe" => $this->can_public_msg_me,
             "email" => $this->email,
             "languageId" => $this->language_id,
-            "scoreSum" => $this->score_sum,
-            ''
+            "scoreSum" => $this->score_sum
         ];
         // return parent::toArray($request); old code
     }
